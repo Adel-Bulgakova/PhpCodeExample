@@ -1,0 +1,31 @@
+.player_container{
+  vertical-align: top;
+}
+
+.chat_container{
+  vertical-align: top;
+}
+
+.chat_messages{
+  height: auto;
+}
+
+
+@media (min-width: 769px) and (max-width: 1199px){
+  #page_play .chat_container .actions{
+      margin-left: 0;
+      margin-top: 28px;
+  }
+
+  #page_play .player_container .stream_data {
+    margin-top: 28px;
+  }
+
+  #page_play .chat_container .actions .actions-inner:first-child {
+    padding-left: 15px;
+  }
+}
+
+#page_play .chat_container .chat {
+    padding-bottom: 7px;
+}

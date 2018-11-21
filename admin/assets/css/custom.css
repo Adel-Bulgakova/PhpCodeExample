@@ -1,0 +1,189 @@
+/* ========= Custom Admin =========*/
+.done {
+    color: #1ABB9C;
+}
+
+.waiting {
+    color: #d58512;
+}
+
+.nav_title {
+    height: 90px;
+}
+
+.site_title {
+    background: url('/assets/images/logo_onblack.png') center center no-repeat;
+    background-size: contain;
+}
+
+.paging_full_numbers a.current {
+    background-color: rgba(38, 185, 154, 0.59) !important;
+    border-color: rgba(38, 185, 154, 0.59) !important;
+}
+
+.paging_full_numbers {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+}
+
+table a {
+    cursor: pointer;
+}
+
+table#devices > tbody > tr > td {
+    padding: 3px 3px 3px 11px;
+    font-size: 10px;
+}
+
+table#users > tbody > tr > td {
+    padding: 3px 3px 3px 11px;
+    font-size: 10px;
+}
+
+table#claims > tbody > tr > td {
+    padding: 3px 3px 3px 11px;
+    font-size: 10px;
+}
+
+table#support_service i.fa-times, table#support_service i.fa-pencil  {
+    cursor: pointer;
+}
+
+.remove-admin {
+    color: #d9534f;
+}
+
+#result_ip span,
+#result_port span{
+    padding-right: 15px;
+}
+
+.alert-danger, .alert-success {
+    text-shadow: none;
+}
+
+.profile_info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 5px;
+    overflow: hidden;
+
+
+    width: 100%;
+    padding: 0;
+    float: none;
+}
+
+.profile_image {
+    display: inline-block;
+    background-color: #f6f2f1;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.profile_name span {
+    display: inline-block;
+    text-decoration: underline;
+    color: #525F6E;
+}
+.profile_name span.profile_about {
+    color: #404040;
+    text-decoration: none !important;
+}
+
+
+/*------- Claim Actions -------*/
+/*.actions button > .fa-lock {*/
+    /*color: #f0ad4e;*/
+/*}*/
+
+/*.actions button > .fa-thumbs-down {*/
+    /*color: #1A82C3;*/
+/*}*/
+
+/*.actions button > .fa-remove {*/
+    /*color: #d9534f;*/
+/*}*/
+
+.actions > .btn {
+    padding: 0 5px;
+    font-size: 10px;
+    line-height: 1;
+}
+
+.screenshot {
+    width: 100px;
+    height: 75px;
+}
+
+.modal-screenshot, .modal-player {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.profile_image {
+    display: inline-block;
+    background-color: #f6f2f1;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#confirm_modal .row {
+    margin: 15px 0;
+}
+
+.stream_action {
+    border: none;
+}
+
+
+.support_chat_wrapper {
+    height: auto;
+    background-color: #f6f2f1;
+    padding: 20px;
+    position: relative;
+    color: #333;
+}
+
+.support_chat_messages {
+    overflow-y: auto;
+    height: 350px;
+}
+
+.profile_image {
+    background-color: gray;
+}
+
+.comment_message {
+    margin-left: 5px;
+}
+.comment_message span {
+    color: #8e9090;
+    margin-right: 10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cbcdcd;
+    padding: 5px 20px 5px 0;
+    position: relative;
+    margin-right: 10px;
+}
+
+.block_user {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: #404040;
+    cursor: pointer;
+}

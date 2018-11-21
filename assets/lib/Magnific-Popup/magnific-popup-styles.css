@@ -1,0 +1,34 @@
+.white-popup-block {
+  background: #FFF;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative
+}
+
+.white-popup-block-with-close-btn {
+  background: #FFF;
+  padding: 20px 55px 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative
+}
+
+.popup-close-icon {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  right: 15px;
+  top: 15px;
+}
+
+.popup-close-icon :hover {
+   opacity: 1;
+   cursor: pointer;
+}
+
+.popup-close-icon :active {
+   top: 15px;
+}
